@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="0b$gmwb$a0Oc%SjD[8;/">item</variable></variables><block type="device_button_event" id="P].e]}g-OwrY8yT7npYW" x="199" y="-49"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="record_startRecording" id="p^Z{~N._acg{GYPJD;Ec"><field name="mode">record.BlockingState.Nonblocking</field></block></statement></block><block type="device_button_event" id="=u8cY~b(|IN|Nfh{PGFa" x="606" y="-34"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="record_playAudio" id="!M+WEmVB*U1}ZVM4I/nO"><field name="mode">record.BlockingState.Blocking</field></block></statement></block><block type="device_gesture_event" id="g|2=qdhmR^bDAl`T~.gJ" x="0" y="0"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="variables_set" id="GOTI^5)h%]x9h~;nH^C6"><field name="VAR" id="0b$gmwb$a0Oc%SjD[8;/">item</field><value name="VALUE"><shadow type="math_number" id="iR)DizrQHua5$v]SBguW"><field name="NUM">0</field></shadow><block type="device_random" id="Wpys^V+i32;u`ol[U-;["><value name="min"><shadow type="math_number" id="A]0P#c7[/GQNy5EG/bdT"><field name="NUM">0</field></shadow></value><value name="limit"><shadow type="math_number" id="F|;pB14JLvazQOIc*|zm"><field name="NUM">2</field></shadow></value></block></value><next><block type="controls_if" id="Ovx~iNQ[~BHs^qZ9ivjf"><mutation elseif="1" else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="*,hehW]T3,w-F/9I|q;}"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="ZZvNO#=avhkjmKiy*n?A"><field name="OP">EQ</field><value name="A"><shadow type="math_number" id="Hnbo+NURf*,b.3JRIj,O"><field name="NUM">0</field></shadow><block type="variables_get" id="aZSdkL2T%L8rU]UuGs``"><field name="VAR" id="0b$gmwb$a0Oc%SjD[8;/">item</field></block></value><value name="B"><shadow type="math_number" id="X!f^{y`_]]u2j^o8,M~`"><field name="NUM">0</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id=",JBxJ3lNdJGCFS:A8;R^"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . . . . .
+        `</field></block></statement><value name="IF1"><shadow type="logic_boolean" id="u[:$HxkKS4g**3gi/]fD"><field name="BOOL">FALSE</field></shadow><block type="logic_compare" id="eMT|I$-WUaX#/*g%!D*1"><field name="OP">EQ</field><value name="A"><shadow type="math_number" id="i1yq2S2VV!P}G+l/r[9+"><field name="NUM">0</field></shadow><block type="variables_get" id="u@|=wLXq%$XWNIIz:e1z"><field name="VAR" id="0b$gmwb$a0Oc%SjD[8;/">item</field></block></value><value name="B"><shadow type="math_number" id="=}d}(SWT,!B_Gq6f^7dr"><field name="NUM">1</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="`H,HgE?ikXel]/BDWE*:"><field name="LEDS">`
+        # # . . # 
+        # # . # . 
+        . . # . . 
+        # # . # . 
+        # # . . #
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="aJyP=+^fU9^Q[+H__hJx"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field></block></statement></block></next></block></statement></block><block type="device_button_event" id=";bm9{e=GgE_UduUtsrap" x="477" y="47"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="music_playable_play_default_bkg" id="{D(y_Q8/5=!UJ*G*3nMY"><field name="playbackMode">music.PlaybackMode.InBackground</field><value name="toPlay"><shadow type="device_builtin_melody_playable" id="(}rX3_Yb5CXib7YD)=*y"><field name="melody">Melodies.Dadadadum</field></shadow></value></block></statement></block></xml>
